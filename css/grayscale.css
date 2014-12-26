@@ -346,7 +346,8 @@ h3>small {
 
 .tab-content{
     padding-top:5%;
-    background-color:grey;
+    background-color: #3E3E3E;
+    height: 80%;
 }
 
 /* ------------ MEDIA QUERYS ----------- */
