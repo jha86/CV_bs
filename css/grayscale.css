@@ -245,7 +245,7 @@ body {
 
 /* ------------ CUSTOM STYLES ----------- */
 
-#accordion {
+.acc {
     width: 70%;
     text-align: center;
     margin-left: 16%;
@@ -322,10 +322,9 @@ h3>small {
     font-family:verdana;
     font-size: medium;
     font-weight: 600;
-    position:absolute;
-    top:100px;
+    top:21%;
     left:2%;
-    width:108%;
+    text-align: center;
 }
 
 .tabb{
@@ -347,7 +346,31 @@ h3>small {
 .tab-content{
     padding-top:5%;
     background-color: #3E3E3E;
-    height: 80%;
+    -webkit-border-bottom-left-radius: 15px;
+    -webkit-border-bottom-right-radius: 15px;
+    -moz-border-radius-bottomleft: 15px;
+    -moz-border-radius-bottomright: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px; 
+}
+
+.tab-content>.active{
+    padding:2%;
+}
+
+.nav-tabs > li, .nav-pills > li {
+    float:none;
+    display:inline-block;
+    *display:inline; /* ie7 fix */
+     zoom:1; /* hasLayout ie7 trigger */
+}
+
+.nav-tabs, .nav-pills {
+    text-align:center;
+}
+
+#eec>div.panel{
+    width:80%;
 }
 
 /* ------------ MEDIA QUERYS ----------- */
